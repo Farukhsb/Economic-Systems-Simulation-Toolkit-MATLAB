@@ -22,7 +22,7 @@ HMRC, HMT, and ONS.
 - Wealth distribution modelling (HMRC)
 - Labour market dynamics (ONS)
 - Macroprudential simulation (BoE)
-- 
+  
 ## Usage Example
 
 ```matlab

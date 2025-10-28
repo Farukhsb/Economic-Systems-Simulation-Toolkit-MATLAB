@@ -22,3 +22,13 @@ HMRC, HMT, and ONS.
 - Wealth distribution modelling (HMRC)
 - Labour market dynamics (ONS)
 - Macroprudential simulation (BoE)
+- 
+## Usage Example
+
+```matlab
+data = readtable('market_prices.xlsx');
+prices = data.Close; % update column name if needed
+
+result = trading_strategy(prices);
+
+disp(result)

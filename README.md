@@ -26,7 +26,7 @@ HMRC, HMT, and ONS.
 ## Usage Example
 
 ```matlab
-data = readtable('market_prices.xlsx');
+data = readtable('FTSE 100 - MV.xlsx');
 prices = data.Close; % update column name if needed
 
 result = trading_strategy(prices);
